@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Gliker Expanded";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(sunset-background-pastel-sky.jpg);
+  background-size: cover;
+  color: rgb(91, 139, 29);
+  text-align: center;
+}
+
+@font-face {
+  font-family: Lov;
+  src: url(Fonts/Love-Craft.ttf);
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family: Lov;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family: Lov;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color:rgb(133, 70, 11);
+  font-size: 17px;
+  font-family: Dream;
+}
+
+@font-face {
+  font-family: Dream;
+  src: url(fonts/dream-orphans.otf);
+}
+.lesson-wrapper {
+  color:rgb(133, 70, 11);
+  font-size: 12px;
+  font-family: Dream;
+  letter-spacing: 1px;
+}
+
+.lesson-wrapper h2 {
+  color:rgb(133, 70, 11);
+  font-size: 24px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(211, 25, 149, 0.7);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: rgba(91, 139, 29);
+}
+
+.heading h2 {
+  font-family: Dream;
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #d4cfd2;
+}
+
+.heading h3 {
+  font-weight: normal;
+  font-family: Dream;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid rgb(122, 16, 96);
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: rgba(91, 139, 29);
+  cursor: pointer;
+  box-shadow: 0 7px rgb(44, 66, 14);
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  float: right;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  color: rgba(122, 16, 96);
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
